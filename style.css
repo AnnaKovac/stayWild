@@ -1,0 +1,439 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.box{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/*Hero*/
+#hero{
+    background-image: url("picture/background1.png");
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#hero img{
+    width: 12%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 14%;
+}
+
+#hero p{
+    text-align: center;
+    padding-top: 1%;
+    font-size: 47px;
+    color: #ffff;
+}
+
+/*About Us*/
+#aboutUs{
+    height: 550px;
+    background-color: #000;
+}
+#aboutUsContainer{
+    margin: 0 auto;
+    width: 65%;
+}
+
+
+.years{
+    
+    border: 2px solid #F8E5E5;
+    background-color: #F8E5E5;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 40px;
+}
+
+.years p{
+    font-size: 55px;
+    color: #C39EA0;
+    position: absolute;
+    top: 38%;
+    left: 13%;
+}
+
+#text{
+    color: #fff;
+    width: 460px;
+    text-indent: 30px;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+#aboutUs img{
+    width: 400px;
+    height: 458px;
+    position: relative;
+    bottom: 650px;
+    left: 580px;
+}
+
+#aboutUs h1, h2{
+    text-align: right;
+    color: #fff;
+    position: relative;
+    bottom: 600px;
+}
+
+#aboutUs h1{
+    font-size: 50px;
+}
+
+
+
+/*Background Image-river*/
+#backgroundImg{
+    background-image: url("picture/background2.png");
+    height: 630px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+}
+
+/*Offer*/
+#whatOffers{
+    height: 350px;
+    background-color: #000;
+    position: relative;
+    top: 0px;
+}
+
+#offers{
+    width: 931px;
+    height: 298px;
+    position: relative;
+    left: 80px;
+}
+
+.items
+{
+    color: #fff;
+    display: inline-block;
+    width: 219px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+} 
+
+.items i{
+    font-size: 60px;
+    position: relative;
+    top: -7px;
+}
+
+.items h3{
+    font-size: 22px;
+    margin-top: 5px;
+}
+
+.items p{
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+
+/*Additional Travel*/
+#additionalTravel{
+    background-image: url(picture/background3.png);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+}
+
+.awards{
+    border: 2px solid #F8E5E5;
+    background-color: #F8E5E5;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 40px;
+    left: 623px;
+}
+
+.awardstext{
+    font-size: 55px;
+    color: #C39EA0;
+    position: absolute;
+    top: 23%;
+    left: 17%;
+    text-align: center;
+}
+
+#additionalTravel h1{
+    color: #fff;
+    font-size: 50px;
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    top: 250px;
+    left: 898px;
+}
+
+.additionalTravelText{
+    color: #fff;
+    font-size: 20px;
+    width: 490px;
+    height: 120px;
+    text-align: right;
+    position: absolute;
+    top: 400px;
+    left: 790px;
+}
+
+#additionalTravel button{
+    color: #fff;
+    background-color: #C39EA0;
+    padding: 15px 30px;
+    border-radius: 3px;
+    border: 2px solid #C39EA0;
+    font-size: 16px;
+    position: absolute;
+    top: 539px;
+    left: 1145px;
+    cursor: pointer;
+}
+
+/*What we do*/
+#whatWeDo
+{
+    background-image: url(picture/background4.png);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column h3,h1{
+    color: #fff;
+}
+
+.column h3{
+    font-size: 25px;
+    position: absolute;
+    top: 240px;
+}
+
+.column h1{
+    font-size: 50px;
+    position: relative;
+    top: 280px;
+}
+
+.column p{
+    color: #fff;
+    position: relative;
+    top: 230px;
+    font-size: 18px;
+}
+
+
+/*Fee*/
+#fee{
+    background-color: #000;
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+}
+
+.clients{
+    border: 2px solid #F8E5E5;
+    background-color: #F8E5E5;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+    left: 100px;
+    bottom: 70px;
+}
+
+.clientsText{
+    font-size: 55px;
+    color: #C39EA0;
+    position: absolute;
+    top: 23%;
+    left: 17%;
+    text-align: center;
+}
+
+#fee .column img{
+    width: 500px;
+    height: 500px;
+}
+
+.sea{
+    position: relative;
+    top: 100px;
+}
+
+.flowers{
+    position: relative;
+    bottom: 100px;
+}
+
+
+#fee .column h1{
+    position: absolute;
+    top: 190px;
+    
+}
+
+#fee .column p{
+    display: inline-block;
+    width: 500px;
+    top: 10px;
+    line-height: 1.4;
+}
+
+/*Gallery*/
+#gallery{
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 0px;
+}
+
+.columnGallery
+{
+    float: left;
+    width: 33.33%;
+    height: 300px;
+}
+
+.rowGallery::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Footer*/
+
+#footer{
+    background-image: url(picture/imgfooter.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 700px;
+}
+
+.columnFooter
+{
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+
+
+
+#footer .logo{
+    width: 180px;
+    position: relative;
+    top: 150px;
+    left: 40px;
+    
+}
+
+.footerHeadline{
+    font-size: 50px;
+    color: #ffff;
+    width: 250px;
+    margin-top: 170px;
+}
+
+/*Footer-adress*/
+.adress{
+    color: #fff;
+    width: 200px;
+    line-height: 1.6;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 33px;
+}
+
+/*Footer-SocialIcon*/
+.socialIcon{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 25px;
+    word-spacing: 15px;
+    cursor: pointer;
+}
+
+/*Footer-form*/
+form{
+    position: relative;
+    top: 160px;
+}
+
+input{
+    width: 457px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #ffff;
+    margin-top: 15px;
+    border-radius: 3px;
+    color: #fff;
+}
+input::placeholder{
+    color: #fff;
+    position: relative;
+    left: 15px;
+}
+
+textarea{
+    width: 1000px;
+    height: 150px;
+    margin-top: 15px;
+    background-color: transparent;
+    border: 2px solid #ffff;
+}
+
+textarea::placeholder{
+    color: #ffff;
+    position: absolute;
+    left: -15px;
+}
+
+input[type=submit]{
+    width: 130px;
+    background-color: #F8E5E5;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+}
